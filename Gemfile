@@ -68,6 +68,8 @@ group :test do
   gem 'capybara', '~> 2.1.0'
   gem 'test-unit', '~> 3.1.2'
   gem 'growl', '~> 1.0.3'
+  gem 'cucumber-rails', '>= 1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 group :production do
