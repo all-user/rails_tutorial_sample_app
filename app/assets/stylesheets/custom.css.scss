@@ -180,3 +180,18 @@ label {
   @extend .form-group;
   @extend .has-error;
 }
+
+/* users index */
+
+.users {
+  lint-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid $gray-lighter;
+    &:last-child {
+      border-bottom: apx solid $gray-lighter;
+    }
+  }
+}
